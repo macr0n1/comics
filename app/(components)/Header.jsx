@@ -3,7 +3,7 @@ import Image from "next/image";
 const Header = () => {
 	return (
 		<header className="flex justify-between items-center max-lg:flex-col-reverse">
-			<div className="w-1/2 max-lg:text-center flex flex-col max-lg:flex-col-reverse">
+			<div className="lg:w-1/2 max-lg:text-center flex flex-col max-lg:flex-col-reverse">
 				<div className="max-lg:mt-5 flex gap-3 max-lg:flex-col">
 					<a href="#comics" className="font-medium text-3xl px-4 py-2 border border-black rounded-xl">start reading</a>
 					<a href="#game" className="font-medium text-3xl px-4 py-2 border border-black rounded-xl">play game</a>
