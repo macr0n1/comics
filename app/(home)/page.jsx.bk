@@ -1,0 +1,49 @@
+'use client';
+
+// import Comics from '@/app/(assets)/Comics.pdf';
+// import { useEffect, useRef, useState } from "react";
+// import { Document, Page, pdfjs } from "react-pdf";
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+const Home = () => {
+	return (
+		<main className=''>
+			<table className='w-full text-center table-fixed'>
+				<tbody>
+					<tr className='text-2xl'>
+						<th className='border-2 border-red-700'>CodeK</th>
+						<th className='border-2 border-red-700'>Photo</th>
+						<th className='border-2 border-red-700'>Game</th>
+						<th className='border-2 border-red-700'>Comics</th>
+					</tr>
+					<tr>
+						<td className='border border-black'>
+							<p>Welcome to the neon-lit world of our cyberpunk game, where the future collides with dystopian reality. Navigate through sprawling megacities, face ruthless corporations, and uncover hidden truths. Our game offers immersive storytelling, cutting-edge visuals, and dynamic gameplay, transporting you to a high-tech, low-life adventure like never before.</p>
+							<ul className='flex justify-center gap-5'>
+								<li><a href=''>YT</a></li>
+								<li><a href=''>IG</a></li>
+								<li><a href=''>TG</a></li>
+								<li><a href=''>DS</a></li>
+							</ul>
+						</td>
+						<td className='border border-green-700'>
+							Gallery
+						</td>
+						<td className='border border-green-700'>
+							Player
+						</td>
+						<td className='border border-green-700'>
+							PDF
+							{/* <iframe src={Comics} /> */}
+							{/* <embed src={Comics} type="application/pdf"/> */}
+							{/* <Document file={Comics} /> */}
+							{/* <PdfViewer fileUrl='https://www.upload.ee/download/16689850/490c67e748d21edf22ba/comics.pdf' /> */}
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+	);
+}
+
+export default Home;

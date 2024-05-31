@@ -1,0 +1,11 @@
+import Image from 'next/image';
+
+const Header = () => {
+	return (
+		<header className='py-10 border-2 border-blue-700 flex justify-center'>
+            <Image src='/codek.png' height={186} width={315} />
+		</header>
+	);
+}
+
+export default Header;
